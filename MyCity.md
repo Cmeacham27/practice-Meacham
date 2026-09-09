@@ -20,3 +20,38 @@ I am creating a table for the new cities I would like to visit in my future. The
 > Jake: What did the ocean say to the beach? Nothing, it just waved.
 
 > Henry: Dogs can't operate MRI machinery, but catscan
+
+---
+## Code Fencing
+The snippet that I got based on my 919# is "Connecting to and reading from a web page. the purpose of this snippet is to be able to open a site on a web browser, read the text in the site, and copy the text in that site into a new file on your computer.
+
+~~~
+import java.io.InputStreamReader;
+import java.net.URL;
+import java.net.URLConnection;
+import java.util.Scanner;
+
+
+public class URLExpSimple {
+
+    
+    public static void main(String[] args) {
+        try {
+            URL mySite = new URL("http://www.cs.utexas.edu/~scottm");
+            URLConnection yc = mySite.openConnection();
+            Scanner in = new Scanner(new InputStreamReader(yc.getInputStream()));
+            int count = 0;
+            while (in.hasNext()) {
+                System.out.println(in.next());
+                count++;
+            }
+            System.out.println("Number of tokens: " + count);
+            in.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+}
+~~~
+
+[Link to snippet](https://www.cs.utexas.edu/~scottm/cs307/javacode/codeSamples/URLExpSimple.java)
