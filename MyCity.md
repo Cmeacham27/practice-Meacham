@@ -18,4 +18,5 @@ I am creating a table for the new cities I would like to visit in my future. The
 
 ## Jokes
 > Jake: What did the ocean say to the beach? Nothing, it just waved.
+
 > Henry: Dogs can't operate MRI machinery, but catscan
