@@ -13,3 +13,9 @@ I am creating a table for the new cities I would like to visit in my future. The
 | New York City | Walk through times square during Christmas time | 2,420 miles | $220-$480 |
 | Los Angeles | Great weather and the Hollywood walk of fame | 954 miles | $130-$310 |
 | Miami | Hangout at the beach and golf along the east coast | 2,724 miles | $220-$450 |
+
+---
+
+## Jokes
+> Jake: What did the ocean say to the beach? Nothing, it just waved.
+> Henry: Dogs can't operate MRI machinery, but catscan
